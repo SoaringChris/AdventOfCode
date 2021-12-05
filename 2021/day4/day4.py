@@ -26,7 +26,6 @@ def simulateTurn(number, boards):
             for tile in row:
                 if(tile.value == int(number)):
                     tile.drawn = True
-    checkWins(boards)
     return boards
 
 def checkWins(boards):
