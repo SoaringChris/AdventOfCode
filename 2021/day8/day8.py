@@ -111,7 +111,7 @@ for line in lines:
     data.append(splitLine[0])
     output.append(splitLine[1])
 
-#part1(output.copy())
+part1(output.copy())
 part2(data.copy(), output.copy())
 
 
