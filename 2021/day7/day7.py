@@ -23,5 +23,5 @@ crabs = input.read().split(',')
 crabs = [int(i) for i in crabs]
 
 
-compute(crabs.copy(), False)
-compute(crabs.copy(), True)
+compute(crabs.copy(), False) #Part 1
+compute(crabs.copy(), True)  #Part 2
