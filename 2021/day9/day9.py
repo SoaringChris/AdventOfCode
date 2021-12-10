@@ -24,10 +24,6 @@ def part1(grid):
     return lowPoints
 
 
-            
-    
-
-
 def part2(grid, lowPoints):
     sizeX = len(grid)
     sizeY = len(grid[0])
