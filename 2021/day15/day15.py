@@ -82,19 +82,10 @@ def compute(grid):
         neighbors = []
         if x > 0:
             neighbors.append([x - 1, y])
-
-            # if y > 0:
-            #     neighbors.append([x - 1, y - 1])
-            # if y < maxY:
-            #     neighbors.append([x - 1, y + 1])
         
         if x < maxX:
             neighbors.append([x + 1, y])
             
-            # if y > 0:
-            #     neighbors.append([x + 1, y - 1])
-            # if y < maxY:
-            #     neighbors.append([x + 1, y + 1])
         
         if y > 0:
             neighbors.append([x, y - 1])
